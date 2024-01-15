@@ -1,10 +1,10 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Text Selection Formatter",
     "version": "1.0",
     "description": "Format selected text as all first letter capital",
     "permissions": ["activeTab"],
-    "browser_action":{
+    "action":{
         "default_icon": "icon.png",
         "default_popup": "index.html"
     },
