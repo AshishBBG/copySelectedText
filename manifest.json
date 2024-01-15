@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Text Selection Formatter",
+    "version": "1.0",
+    "description": "Format selected text as all first letter capital",
+    "permissions": ["activeTab"],
+    "browser_action":{
+        "default_icon": "icon.png",
+        "default_popup": "index.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["script.js"]
+
+        }
+    ]
+
+}
+
+  
